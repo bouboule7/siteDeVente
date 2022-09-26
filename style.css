@@ -1,0 +1,113 @@
+*{
+    max-width: 98.5vw;
+}
+body{
+    margin: 0;
+}
+/*.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}*/
+.d-block{
+    display:block;
+}
+.center{
+    width: max-content;
+    margin: auto;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.w-40{
+    width: 40vw;
+    margin: auto;
+}
+nav{
+    font-size: 1.5em;
+    color:black;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:visited{
+    color:white;
+}
+header{
+    padding-bottom: 10px;
+    border-bottom: 1px black solid;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.5);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.e-sakafo{
+    color:white;
+}
+.plat{
+    height: 150px;
+    width: auto;
+    padding: 10px;
+}
+.background{
+    height:100vh;
+    background: url('./images/back.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.titre{
+    position: relative;
+    top:30vh;
+    color: black;
+    backdrop-filter: blur(5px);
+    background:rgba(255, 255, 255, 0.6);
+    padding:100px;
+    width: 20vw;
+}
+
+.card{
+    min-width: 20vw;
+    height:max-content;
+    margin: 0 1vw 12px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(95, 95, 95, 0.174);
+    border-radius: 50px;
+    width: 20vw;
+    padding: 10px 0;
+}
+.cards{
+    padding: 60px;
+}
+.suggestion{
+    text-decoration: underline;
+    margin:0 auto 50px;
+}
+.text{
+    width: 89vw;
+}
+.paragraphe{
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.legende{
+    margin-left: 5vw;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.804);
+    color: white;
+    padding: 10px;
+    margin:auto;
+}
+footer p{
+    font-size: 16px;
+}
+footer .d-flex1{
+    display: flex;
+    justify-content: space-between;
+    width: 68vw;
+    margin-left: 50px;
+}
